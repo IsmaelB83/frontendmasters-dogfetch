@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Dogs example</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href='./styles.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row'>
+                <div class="column mt-3">
+                    <h1 class='main__title'>Dogs random image</h1>
+                    <div class='breed'>
+                        <p class='breed__text'>Select your breed here </p>
+                        <select class='breed__select'></select>
+                        <input class='breed__button' type="image" src='./img/refresh.png'/>
+                    </div>
+                    <div class='dog'>
+                        <img class='dog__spinner' src='./img/loading.gif' alt='unknown'>
+                        <img class='dog__image' src='' alt='unknown'>
+                    </div>            
+                </div>
+            </div>
+        </div>
+        <script src='./dogs.js'></script>
+    </body>
+</html>
